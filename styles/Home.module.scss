@@ -40,11 +40,12 @@
 .title {
   margin: 0;
   line-height: 1;
-  font-size: 4rem;
+  @apply text-6xl;
+  font-family: 'Atma';
 }
 .subtitle {
   font-family: Roboto, sans-serif;
-  font-size: 1rem; 
+  @apply text-base text-center;
 }
 
 .heroCard {
